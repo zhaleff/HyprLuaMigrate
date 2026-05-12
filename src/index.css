@@ -7,3 +7,17 @@
   --color-bg: #0d1321;
   --color-accent-border: #212529;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+}
+
+textarea::placeholder {
+  color: #374151;
+}
